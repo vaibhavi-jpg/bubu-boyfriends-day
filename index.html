@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Bubu 💗</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="hearts"></div>
+<main class="card">
+  <div class="progress"><span id="bar"></span></div>
+
+  <section class="screen active" data-step="0">
+    <div class="sparkle">✦</div>
+    <p class="tiny">A tiny internet corner made specially for</p>
+    <h1>My Bubu 💗</h1>
+    <p class="sub">From your Darlo, obviously.</p>
+    <button onclick="next()">Open your gift →</button>
+  </section>
+
+  <section class="screen" data-step="1">
+    <div class="emoji">🎀</div>
+    <p class="tiny">WARNING</p>
+    <h2>You are about to find out</h2>
+    <h1>why I love you.</h1>
+    <p class="sub">There may be excessive cuteness, bullying and absolutely no refunds.</p>
+    <button onclick="next()">I accept my fate 😭</button>
+  </section>
+
+  <section class="screen reasons" data-step="2">
+    <p class="tiny">REASON <span id="reasonNo">1</span></p>
+    <h2 id="reason"></h2>
+    <p class="sub" id="reasonSmall"></p>
+    <button onclick="nextReason()">Another one →</button>
+  </section>
+
+  <section class="screen" data-step="3">
+    <div class="emoji">🎧</div>
+    <p class="tiny">OUR SOUNDTRACK</p>
+    <h1>Dhichkyaaon Doom Doom</h1>
+    <p class="sub">Because apparently our love story needed a little more chaos. 💃🏻</p>
+    <button onclick="next()">Play the next chapter →</button>
+  </section>
+
+  <section class="screen" data-step="4">
+    <div class="emoji">🏆</div>
+    <p class="tiny">SPECIAL REWARD</p>
+    <h1>Achievement Unlocked!</h1>
+    <p class="sub">You successfully became my Bubu.</p>
+    <div class="reward">🎁 One lifetime subscription to my love, nonsense, flirting &amp; occasional drama.</div>
+    <p class="small">No cancellations. No exchanges. You're stuck with me. 😌</p>
+    <button onclick="next()">Claim reward →</button>
+  </section>
+
+  <section class="screen" data-step="5">
+    <div class="emoji">🤝🏻</div>
+    <p class="tiny">BOYFRIEND CONTRACT</p>
+    <h2>Promises you have to make:</h2>
+    <ul class="promises">
+      <li>Keep choosing me, even when I'm being a certified menace.</li>
+      <li>Tell me what's wrong instead of saying “nothing.” 👀</li>
+      <li>Keep making me laugh when I forget how.</li>
+      <li>Never stop flirting with your Darlo.</li>
+      <li>And most importantly… stay my Bubu. 💗</li>
+    </ul>
+    <button onclick="next()">I promise 😌</button>
+  </section>
+
+  <section class="screen final" data-step="6">
+    <div class="emoji">🥹💗</div>
+    <p class="tiny">HAPPY BOYFRIEND'S DAY</p>
+    <h1>To my Bubu,</h1>
+    <p class="message">Happy Boyfriend’s Day to my favourite idiot, my personal headache, my favourite notification and, unfortunately for me, the person I’m ridiculously in love with. 😭❤️ Somewhere between the random conversations, stupid jokes, little arguments, missing each other and all our tiny moments, you became my person. I’ll keep annoying you, teasing you, stealing your attention and pretending I’m unbothered when I’m very obviously not. But underneath all my chaos, I hope you always know how deeply loved you are by me. You get a side of me that not everyone gets — my soft, silly, affectionate side. So congratulations, Bubu: you have officially unlocked one extremely obsessed Darlo. No refunds. You’re stuck with me. 🤭❤️</p>
+    <h2 class="last">I love youuuu. 💗</h2>
+    <p class="tiny">— Your Darlo 🎀</p>
+  </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
